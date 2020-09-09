@@ -9,16 +9,76 @@
     <link rel="stylesheet" href="style.css">
 </head>
   <body>
-      <h1>Das ist eine Überschrift</h1>
-    <img src="img/burger.jpg" alt="Burger auf Teller" width="700" title="Huhu"/>
-    <p id="nummer-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium corporis similique assumenda excepturi quo. Ut consequatur expedita voluptatem, iste perferendis harum repellat voluptates nisi unde molestias porro, facilis quasi fuga.
+    <header>
+    <a href="#">
+      <img src="img/logo.png" alt="Logo Kochen BTA" height="40"</>
+    </a>
+    <button id="burger">
+<img src="img/menu.svg" alt="Zum Hauptmenü" height="40"/>
+   </button>
 
-</p>
-<p id="werner">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod obcaecati cupiditate accusantium laudantium, esse dolor non illo voluptates molestiae repellat dicta, debitis exercitationem qui corporis soluta atque repudiandae sapiente consectetur?</p>
+    <nav class="hidden">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Rezepte</a>
+        </li>
+        <li>
+          <a href="#">Kategorien</a>
+        </li>
+        <li>
+          <a href="#">Über uns</a>
+        </li>
+      </ul>
+    </nav>
+</header>
+<!--Hier beginnt der Hauptteil-->
+<main>
+<section id="hero">
+  <div>
+  <h1>Die besten Rezepte für Webworker!
+  </h1>
+  <p>Es gibt mehr als Pizza und Ravioli.</p>
+  <a href="#rezepte"class="button">Entdecke die Leckereien.</a>
+</div>
+</section>
+<section id="rezepte">
+  <h2>Die neuesten Rezepte</h2>
+  <div class="reihe">
+  <div class="karte">
+    <article class="karte">
+    <img src="img/burger.jpg"alt="leckerer burger">
+    <h3>Total leckerer Burger</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <a href="#" class="button button-blue">Zum Rezept</a>
+  </article>
+  <article class="karte">
+    <img src="img/burger.jpg"alt="leckerer burger">
+    <h3>Total leckerer Burger</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <a href="#" class="button button-blue">Zum Rezept</a>
+  </article>
+  <article class="karte">
+    <img src="img/burger.jpg"alt="leckerer burger">
+    <h3>Total leckerer Burger</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <a href="#" class="button button-blue">Zum Rezept</a>
+  </article>
+  <article class="karte">
+    <img src="img/burger.jpg"alt="leckerer burger">
+    <h3>Total leckerer Burger</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <a href="#" class="button button-blue">Zum Rezept</a>
+  </article>
+  </div>
+</div>
 
-<div class="aqua"></div>
-<div></div>
-<div class="aqua"></div>
+</section>
+
+</main>
+    <script src="js/menu.js"></script>
 
 </body>
 </html>
